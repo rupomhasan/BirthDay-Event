@@ -28,9 +28,13 @@ export default {
       yellow: "#ffd909",
       gray: "#8492a6",
       balck: "#000000",
-      gray200 : '#eeeeee'
+      gray200: "#eeeeee",
+      gray400: "#BDBDBD",
+      gray500: "#9e9e9e",
+      gray600: "#757575",
+      gray700: "#616161",
     },
-/*     screens: {
+    /*     screens: {
       sm: "640px",
       sm_up: "694px",
       md: "764px",

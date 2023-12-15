@@ -1,0 +1,34 @@
+[
+    {
+      "id": 4,
+      "name": "Daniel Mitchell",
+      "position": "Marketing Specialist",
+      "short_position": "Marketer",
+      "message": "Dedicated to crafting compelling narratives and strategies that resonate with our audience. Committed to building strong connections and brand presence.",
+      "image": "https://i.ibb.co/TPw9Kvj/profile6.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Michael Rodriguez",
+      "position": "Chief Technology Officer",
+      "short_position": "Officer's",
+      "message": "Bringing technical expertise to the team, I thrive on turning ideas into reality. Committed to driving technological innovation for our clients.",
+      "image": "https://i.ibb.co/rwtn7y6/profile5.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Emily Turner",
+      "position": "Lead Designer",
+      "short_position": "Designer's",
+      "message": "Passionate about creating visually stunning designs that captivate and inspire. Committed to delivering unique and memorable visual experiences.",
+      "image": "https://i.ibb.co/Y49nydk/Problem-Solving-par-1.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Jessica Parker",
+      "position": "Founder & CEO",
+      "short_position": "Founder's",
+      "message": "Passionate about creating innovative solutions that make a positive impact. Committed to leading a team dedicated to excellence and creativity.",
+      "image": "https://i.ibb.co/BCFwpNf/profile10.jpg"
+    }
+  ]

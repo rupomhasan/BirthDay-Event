@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Birthday Celebration",
+      "service": "4 Hours",
+      "persons": 10,
+      "details1": "Decoration",
+      "details2": "Catering",
+      "price": "$150"
+    },
+    {
+      "id": 2,
+      "name": "Family Celebration",
+      "service": "6 Hours",
+      "persons": 20,
+      "details1": "Decoration",
+      "details2": "Catering",
+      "price": "$250"
+    },
+    {
+      "id": 3,
+      "name": "Weddings Celebration",
+      "service": "10 Hours",
+      "persons": 50,
+      "details1": "Decoration",
+      "details2": "Catering",
+      "price": "$500"
+    },
+    {
+      "id": 4,
+      "name": "Corporate Celebration",
+      "service": "20 Hours",
+      "persons": 100,
+      "details1": "Decoration",
+      "details2": "Catering",
+      "price": "$1000"
+    }
+  ]
