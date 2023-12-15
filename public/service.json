@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Catering and Decor",
+      "icon": "https://i.ibb.co/Thv8G4b/catering.png",
+      "image": "https://i.ibb.co/G0WYYhq/wedding-Banner.jpg",
+      "description": "Our Catering and Decor services bring culinary excellence and artistic design to your event. From mouth-watering dishes to stunning decor elements, we create an unforgettable experience for your guests. Our team works closely with you to customize menus, choose themes, and ensure every detail aligns with your vision. Let us transform your event into a feast for the senses."
+    },
+    {
+      "id": 2,
+      "name": "Floral",
+      "icon": "https://i.ibb.co/ykkkCwT/wedding-arch.png",
+      "image": "https://i.ibb.co/CWGnttn/weddings.jpg",
+      "description": "Experience the beauty of nature with our Floral services. Our expert florists craft breathtaking arrangements that add elegance and freshness to your event. From bouquets to centerpieces, we use a diverse selection of flowers to complement your theme and style. Whether it's a wedding, birthday, or corporate event, our floral designs create a vibrant and enchanting atmosphere."
+    },
+    {
+      "id": 3,
+      "name": "Photo,Video and Audio",
+      "icon": "https://i.ibb.co/HXpwVM1/photographer.png",
+      "image": "https://i.ibb.co/pPTk316/engagement-banner.jpg",
+      "description": "Capture every moment with our Photo, Video, and Audio services. Our skilled photographers, videographers, and audio professionals work seamlessly to document your event. From candid shots to cinematic videos and crystal-clear audio, we ensure that you can relive the magic of your special day. Trust us to preserve your memories in a way that tells your unique story."
+    },
+    {
+      "id": 4,
+      "name": "Invitation Cards",
+      "icon": "https://i.ibb.co/1ZWtWFC/wedding-invitation.png",
+      "image": "https://i.ibb.co/Dwj8pZB/invitation.jpg",
+      "description": "Make a statement with our unique Invitation Cards. Our designers create personalized and stylish invitations that set the tone for your event. Whether you prefer traditional elegance or modern chic, we offer a range of designs to suit your taste. From weddings to corporate gatherings, our invitation cards are a perfect introduction to your special occasion."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "icon": "https://i.ibb.co/2c7k52x/Entartainment.png",
+      "image": "https://i.ibb.co/CKPY1Kh/birthday-banner.jpg",
+      "description": "Elevate your event with our Entertainment services. From live bands and DJs to magicians and performers, we curate a diverse range of entertainment options to keep your guests engaged and entertained. Let us bring excitement and energy to your event, creating moments that will be remembered long after the celebration ends."
+    },
+    {
+      "id": 6,
+      "name": "Venue Selection",
+      "icon": "https://i.ibb.co/xHC6jks/Venu.png",
+      "image": "https://i.ibb.co/G0WYYhq/wedding-Banner.jpg",
+      "description": "Find the perfect venue with our Venue Selection services. Whether you're planning an intimate gathering or a grand celebration, we help you discover venues that match your vision. Our team considers factors like location, capacity, and ambiance to ensure the chosen venue complements the overall theme of your event. Let us take the stress out of finding the ideal setting for your special day."
+    }
+  ]

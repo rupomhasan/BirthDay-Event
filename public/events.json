@@ -1,0 +1,32 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Birthday",
+    "description": "Celebrate the joyous occasion of a birthday with our event planning services. Whether it's a milestone birthday or a surprise party, we specialize in creating memorable experiences. Imagine a beautifully decorated venue filled with laughter, delicious treats, and the perfect ambiance. Our team will take care of every detail, from theme selection to entertainment, ensuring the birthday person feels truly special.",
+    "bannerImage": "https://i.ibb.co/CKPY1Kh/birthday-banner.jpg",
+    "cardImage": "https://i.ibb.co/phdHRkW/Birthday.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Weddings",
+    "description": "Plan your dream wedding with our expert event coordinators. From intimate ceremonies to grand celebrations, we provide personalized services to make your special day extraordinary. Picture exchanging vows in a breathtaking venue adorned with elegant decorations, surrounded by loved ones. Our team handles everything, including venue selection, catering, floral arrangements, and more.",
+    "bannerImage": "https://i.ibb.co/G0WYYhq/wedding-Banner.jpg",
+    "cardImage": "https://i.ibb.co/kBNvSy6/Weddings.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Engagements",
+    "description": "Celebrate the beginning of a beautiful journey with our engagement event planning services. Whether you prefer a romantic and intimate affair or a lively celebration, we tailor our services to suit your style. Picture a stunning setting with tasteful decor, a joyful atmosphere, and the perfect moment to say 'yes.' Our team ensures that your engagement event is a reflection of your unique love story.",
+    "bannerImage": "https://i.ibb.co/pPTk316/engagement-banner.jpg",
+    "cardImage": "https://i.ibb.co/bFSMcT7/Engagement.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Corporate",
+    "description": "Elevate your corporate events with our professional event management services. Whether it's a conference, product launch, or team-building retreat, we handle the logistics so you can focus on your business objectives. Imagine a seamlessly executed event in a sophisticated venue, equipped with state-of-the-art technology and catering services. Our team ensures that your corporate event leaves a lasting impression.",
+    "bannerImage": "https://example.com/corporate-banner.jpg",
+    "cardImage": "https://i.ibb.co/41LRBR5/Corporate.jpg"
+  }
+]

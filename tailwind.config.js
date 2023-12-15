@@ -28,6 +28,7 @@ export default {
       yellow: "#ffd909",
       gray: "#8492a6",
       balck: "#000000",
+      gray200 : '#eeeeee'
     },
 /*     screens: {
       sm: "640px",

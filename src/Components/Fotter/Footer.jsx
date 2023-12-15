@@ -1,24 +1,17 @@
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaFacebookF, FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+
 import { FaRegCopyright } from "react-icons/fa";
 
 import Logo from "../Common/Logo";
+import SocalLink from "../Common/SocalLink";
 
 const Footer = () => {
   return (
-    <div className=" bg-cyan-blue text-white">
-      <footer className=" grid md:grid-cols-2 lg:grid-cols-4 gap-10 text-xl font-semibold py-16 px-4  md:p-20 ">
+    <div className=" text-white bg-gradient-to-r from-[#fe7259] to-[#ffaa5f] bg-blend-multiply  ">
+      <footer className=" max-w-screen-xl mx-auto  grid md:grid-cols-2 lg:grid-cols-4 gap-10 text-xl font-semibold py-16 px-4 md:px-8  md:py-12 ">
         <nav>
           <Logo />
-          <div className="flex gap-1 ml-3 mt-2">
-            <FaFacebookF className="text-white h-10 w-10 p-2 rounded-full border-2 hover:bg-yellow-dark" />
-
-            <FaInstagram className="text-white h-10 w-10 p-2 rounded-full border-2 hover:bg-yellow-dark" />
-            <FaYoutube className="text-white h-10 w-10 p-2 rounded-full border-2 hover:bg-yellow-dark" />
-            <FaXTwitter className="text-white h-10 w-10 p-2 rounded-full border-2 hover:bg-yellow-dark" />
-          </div>
+          <SocalLink></SocalLink>
         </nav>
         <nav>
           <header className="footer-title ">About</header>
@@ -48,7 +41,7 @@ const Footer = () => {
           </p>
         </nav>
       </footer>
-      <p className="flex justify-center items-center ">
+      <p className="flex justify-center items-center bg-[#fe7259] py-2">
         <FaRegCopyright />
         <span className="font-bold"> 2023.All Rights Reserved.</span>
       </p>
