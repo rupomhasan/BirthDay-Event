@@ -55,9 +55,13 @@ const Navbar = () => {
               <Navlist></Navlist>
             </div>
             <div className="mr-2 mt-3">
-              <button className=" btn w-[100px] btn-sm  rounded-full  bg-btn-bg hover:bg-yellow-dark text-lg text-white font-extrabold">
+              <motion.button
+                whileTap={{ scale: 0.9 }}
+                whileHover={{ scale: 1.2 }}
+                className=" btn w-[100px] border-none btn-sm  rounded-full  bg-btn-bg hover:bg-yellow-dark text-lg text-white font-extrabold"
+              >
                 Login
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>

@@ -1,8 +1,10 @@
+import { motion } from "framer-motion";
+
 const Extra = () => {
   return (
     <div className="font-Rubik ">
       <div className="grid  md:grid-cols-2 my-20 gap-5">
-        <div className="flex flex-col justify-center space-y-10  xl:ml-48 px-5" >
+        <div className="flex flex-col justify-center space-y-10  xl:ml-48 px-5">
           <h2 className=" text-5xl md:text-6xl text-gray700 lg:text-8xl font-extrabold">
             What we,
             <br />
@@ -13,11 +15,15 @@ const Extra = () => {
             be as well. We know that it should be "Can I hire a planner?" not
             "Can I affored one?"
           </p>
-          <button className=" btn rounded-full text-xl btn-lg max-w-sm px-10 bg-btn-bg border-none hover:bg-vivide-amber  text-white">
+          <motion.button
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            className=" btn rounded-full text-xl btn-lg max-w-sm px-10 bg-btn-bg border-none hover:bg-vivide-amber  text-white"
+          >
             More Services
-          </button>
+          </motion.button>
         </div>
-        <div >
+        <div>
           <img src="/src/assets/girls-withCake.jpg" alt="cake-with-girls" />
         </div>
       </div>
@@ -35,9 +41,13 @@ const Extra = () => {
             $150
           </span>
         </p>
-        <button className="my-10 btn rounded-full text-xl btn-lg px-10 bg-white border-none hover:bg-vivide-amber  hover:text-white">
+        <motion.button
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          className="my-10 btn rounded-full text-xl btn-lg px-10 bg-white border-none hover:bg-vivide-amber  hover:text-white"
+        >
           More Services
-        </button>
+        </motion.button>
       </div>
     </div>
   );

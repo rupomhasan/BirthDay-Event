@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const OurEvents = () => {
   const [events, setEvents] = useState([]);
@@ -18,17 +19,24 @@ const OurEvents = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-10 gap-5 lg:max-w-screen-xl lg:mx-auto my-14">
         {events.map((event, idx) => (
-          <div key={idx} className="mx-auto bg-gray200">
-            <img  src={event.cardImage} alt="eventImgae" />
-            <h3 className="py-10   text-2xl font-bold">
-              {event.name}
-            </h3>
-          </div>
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            key={idx}
+            className="mx-auto bg-gray200"
+          >
+            <img src={event.cardImage} alt="eventImgae" />
+            <h3 className="py-10   text-2xl font-bold">{event.name}</h3>
+          </motion.div>
         ))}
       </div>
-      <button className=" btn w-[200px] btn-lg  rounded-full  bg-btn-bg hover:bg-yellow-dark text-xl text-white font-extrabold">
-      View more
-              </button>
+      <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className=" btn w-[200px] btn-lg  rounded-full  bg-btn-bg hover:bg-yellow-dark text-xl text-white font-extrabold"
+      >
+        View more
+      </motion.button>
     </div>
   );
 };

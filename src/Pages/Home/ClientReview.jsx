@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { motion } from "framer-motion";
+
 import { useEffect, useState } from "react";
 const ClientReview = () => {
   const [reviews, setReview] = useState([]);
@@ -12,18 +14,14 @@ const ClientReview = () => {
   }, []);
 
   var settings = {
-    className: "center",
-    centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    focus: 1.5,
     dots: true,
     speed: 1300,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
-    nextArrow: false,
-    prevArrow: false,
+    autoplaySpeed: 3000,
     rtl: true,
     responsive: [
       {
@@ -66,7 +64,11 @@ const ClientReview = () => {
         </div>
         <Slider className="my-10  " {...settings}>
           {reviews.map((singelReview) => (
-            <div  key={singelReview.id}>
+            <motion.div
+              whileHover={{ scale: 1.06 }}
+              // whileTap={{ scale: 0.8 }}
+              key={singelReview.id}
+            >
               <div className="text-center bg-white p-5 m-5 rounded-lg  ">
                 <p className="text-2xl font-extrabold font-Rubik text-orange mb-3">
                   //
@@ -77,11 +79,17 @@ const ClientReview = () => {
                   </p>
                 </div>
                 <div className="flex justify-center">
-                  <img className="p-4  h-32 w-32 mt-5 rounded-full" src={singelReview.profile_pic} />
-                      </div>
-                      <h4 className="font-bold text-xl mb-8 ">{singelReview.client_name}</h4>
+                  <motion.img
+                    whileHover={{ scale: 1.2 }}
+                    className="p-4  h-32 w-32 mt-5 rounded-full"
+                    src={singelReview.profile_pic}
+                  />
+                </div>
+                <h4 className="font-bold text-xl mb-8 ">
+                  {singelReview.client_name}
+                </h4>
               </div>
-            </div>
+            </motion.div>
           ))}
         </Slider>
       </div>
