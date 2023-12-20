@@ -11,9 +11,7 @@ const Navlist = () => {
         >
           <NavLink
             to="/"
-            className={({ isActive, isPending }) =>
-              isPending ? "" : isActive ? "text-yellow" : ""
-            }
+
           >
             Home
           </NavLink>
@@ -25,9 +23,7 @@ const Navlist = () => {
         >
           <NavLink
             to="/store"
-            className={({ isActive, isPending }) =>
-              isPending ? "text-white" : isActive ? "text-yellow" : ""
-            }
+          
           >
             Store
           </NavLink>
@@ -35,13 +31,11 @@ const Navlist = () => {
         <motion.li
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-          className="hover:text-yellow"
+          className="hover:text-"
         >
           <NavLink
-            to="/store"
-            className={({ isActive, isPending }) =>
-              isPending ? "text-white" : isActive ? "text-yellow" : ""
-            }
+            to="/service"
+           
           >
             About Us
           </NavLink>
@@ -52,10 +46,8 @@ const Navlist = () => {
           className="hover:text-yellow"
         >
           <NavLink
-            to="/store"
-            className={({ isActive, isPending }) =>
-              isPending ? "text-white" : isActive ? "text-yellow" : ""
-            }
+            to="/service"
+       
           >
             Services
           </NavLink>

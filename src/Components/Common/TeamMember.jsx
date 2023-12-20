@@ -23,8 +23,8 @@ const TeamMember = () => {
       <div className="grid md:grid-cols-2 gap-10 lg:grid-cols-4 mx-5">
         {members.map((member) => (
           <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.8 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.9 }}
             key={member.id}
             className="bg-gray200 rounded-tr-3xl rounded-bl-3xl"
           >

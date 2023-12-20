@@ -26,7 +26,6 @@ const Home = () => {
       <TeamMember />
       <WorkProcess />
       <ClientReview />
-      
       <HelpDex />
     </div>
   );

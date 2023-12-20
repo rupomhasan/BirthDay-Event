@@ -6,10 +6,9 @@ import SocalLink from "../Common/SocalLink";
 import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false);
-  console.log(navMenu);
 
   return (
-    <AnimatePresence className="max-w-screen-xl mx-auto">
+    <AnimatePresence className="max-w-screen-xl mx-auto ">
       {navMenu ? (
         <motion.div
           initial={{ y: -300 }}
@@ -17,7 +16,7 @@ const Navbar = () => {
           transition={{
             duration: "0.7",
           }}
-          className="  sm:hidden border-b-4 border-white  py-7 bg-gray-dark "
+          className=" absolute w-[100%] sm:hidden border-b-4 border-white  py-7 bg-gray-dark "
         >
           <div className="flex items-center justify-between px-2">
             <Logo />

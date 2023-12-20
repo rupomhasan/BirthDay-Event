@@ -1,0 +1,73 @@
+[
+  {
+    "id": "BD1001",
+    "title": "Gold Color Latex Balloons",
+    "description": "All-in-one package for a fantastic birthday celebration with a delicious cake, festive stickers, and high-quality paper decorations.",
+    "image": "https://i.ibb.co/k3815Zh/card1.jpg",
+    "price": 75
+  },
+  {
+    "id": "WD2002",
+    "title": "Party Decoration Accessories",
+    "description": "Elevate your wedding with a stunning cake, elegant decorations, and personalized wedding favors.",
+    "image": "https://i.ibb.co/GQXWrS7/card2.jpg",
+    "price": 110
+  },
+  {
+    "id": "EG3003",
+    "title": "Hawaii Themed Summer Party Photo Booth Props Kit",
+    "description": "Make your engagement memorable with a delightful cake, charming stickers, and beautiful paper decorations.",
+    "image": "https://i.ibb.co/J7n90CM/card3.jpg",
+    "price": 50
+  },
+  {
+    "id": "CE4004",
+    "title": "Vintage Collection Hanging Fans",
+    "description": "Ensure a successful corporate event with a customized cake, branded stickers, and premium paper supplies.",
+    "image": "https://i.ibb.co/mhq9WwQ/card4.jpg",
+    "price": 90
+  },
+  {
+    "id": "GR5005",
+    "title": "Vintage Collection Hanging Fans",
+    "description": "Celebrate the graduate's achievements with a special cake, congratulatory stickers, and festive paper decorations.",
+    "image": "https://i.ibb.co/dLwSG6h/card5.jpg",
+    "price": 70
+  },
+  {
+    "id": "BS6006",
+    "title": "Glitter Gold Party Decorations Garland",
+    "description": "Welcome the new arrival with a sweet cake, adorable stickers, and charming paper decorations.",
+    "image": "https://i.ibb.co/s5V08bP/card6.jpg",
+    "price": 120
+  },
+  {
+    "id": "AN7007",
+    "title": "Mermaid Theme Glitter Cupcake Topper",
+    "description": "Celebrate your special anniversary with a romantic cake, heartwarming stickers, and elegant paper decorations.",
+    "image": "https://i.ibb.co/MNMXkPK/card7.jpg",
+    "price": 50
+  },
+  {
+    "id": "CH8008",
+    "title": "10 Feet Triangle Flag Bunting Banner",
+    "description": "Create a magical children's party with fun balloons, a delicious cake, festive masks, and playful stickers.",
+    "image": "https://i.ibb.co/ft2GBWR/card8.jpg",
+    "price": 150
+  },
+  {
+    "id": "HS9009",
+    "title": "Paper Drinking Striped Straws",
+    "description": "Spread holiday cheer with a festive cake, seasonal stickers, and joyful paper decorations.",
+    "image": "https://i.ibb.co/fN5FM1K/card9.jpg",
+    "price": 110
+  },
+
+  {
+    "id": "PT11010",
+    "title": "Party Time Extravaganza",
+    "description": "Get ready for an unforgettable party with vibrant balloons, a delightful cake, stylish masks, and festive stickers.",
+    "image": "https://i.ibb.co/cgvF0Z5/card10.jpg",
+    "price": 120
+  }
+]

@@ -26,7 +26,7 @@ export default {
       orange: "#ff7849",
       green: "#00d084",
       yellow: "#ffd909",
-      gray: "#8492a6",
+      gray: "#f5f5f5",
       balck: "#000000",
       gray200: "#eeeeee",
       gray400: "#BDBDBD",
