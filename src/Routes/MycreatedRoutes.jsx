@@ -5,6 +5,9 @@ import ErrorPage from "../Components/Error/ErrorPage";
 import Store from "../Pages/Store/Store";
 import Service from "../Pages/Service/Service";
 import ServiceDetails from "../Pages/Service/ServiceDetails";
+import ContactUs from "../Pages/Contact/ContactUs";
+import Login from "../Pages/Authentication/Login";
+import Register from "../Pages/Authentication/Register";
 
 const MycreatedRoutes = createBrowserRouter([
   {
@@ -31,9 +34,16 @@ const MycreatedRoutes = createBrowserRouter([
         element: <ServiceDetails />,
       },
       {
-        path: "/aboutUs",
-        loader: () => fetch("/public/teamMember.json"),
-        element : <
+        path: "/contactUs",
+        element: <ContactUs />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
       },
     ],
   },

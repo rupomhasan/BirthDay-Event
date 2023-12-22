@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Extra = () => {
   return (
@@ -15,13 +16,15 @@ const Extra = () => {
             be as well. We know that it should be "Can I hire a planner?" not
             "Can I affored one?"
           </p>
-          <motion.button
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.9 }}
-            className=" btn rounded-full text-xl btn-lg max-w-sm px-10 bg-btn-bg border-none hover:bg-vivide-amber  text-white"
-          >
-            More Services
-          </motion.button>
+          <Link to="/service">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className=" btn rounded-full text-xl btn-lg max-w-sm px-10 bg-btn-bg border-none hover:bg-vivide-amber  text-white"
+            >
+              More Services
+            </motion.button>
+          </Link>
         </div>
         <div>
           <img src="/src/assets/girls-withCake.jpg" alt="cake-with-girls" />
@@ -41,13 +44,15 @@ const Extra = () => {
             $150
           </span>
         </p>
-        <motion.button
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          className="my-10 btn rounded-full text-xl btn-lg px-10 bg-white border-none hover:bg-vivide-amber  hover:text-white"
-        >
-          More Services
-        </motion.button>
+        <Link to="/service">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="my-10 btn rounded-full text-xl btn-lg px-10 bg-white border-none hover:bg-vivide-amber  hover:text-white"
+          >
+            More Services
+          </motion.button>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const OurEvents = () => {
   const [events, setEvents] = useState([]);
@@ -20,8 +21,8 @@ const OurEvents = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-10 gap-5 lg:max-w-screen-xl lg:mx-auto my-14">
         {events.map((event, idx) => (
           <motion.div
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.8 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.92 }}
             key={idx}
             className="mx-auto bg-gray200"
           >
@@ -35,7 +36,7 @@ const OurEvents = () => {
         whileTap={{ scale: 0.9 }}
         className=" btn w-[200px] btn-lg  rounded-full  bg-btn-bg hover:bg-yellow-dark text-xl text-white font-extrabold"
       >
-        View more
+        <Link to="/store">View more</Link>
       </motion.button>
     </div>
   );

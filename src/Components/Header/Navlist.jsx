@@ -34,10 +34,10 @@ const Navlist = () => {
           className="hover:text-"
         >
           <NavLink
-            to="/service"
+            to="/contactUs"
            
           >
-            About Us
+            Contact Us
           </NavLink>
         </motion.li>
         <motion.li

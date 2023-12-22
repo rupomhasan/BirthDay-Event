@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../Components/Auth/AuthProvider";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const OurService = () => {
   const { services } = useContext(AuthContext);
 
@@ -15,7 +16,10 @@ const OurService = () => {
               whileTap={{ scale: 0.9 }}
               key={idx}
             >
-              <div className="text-center space-y-5">
+              <Link
+                to={`/service/${service.id}`}
+                className="text-center space-y-5"
+              >
                 <img
                   className="w-40 h-40 bg-white hover:bg-yellow p-12 rounded-full "
                   src={service.icon}
@@ -23,7 +27,7 @@ const OurService = () => {
                 <p className="text-2xl font-bold font-Pacifico text-yellow hover:link ">
                   {service.name}
                 </p>
-              </div>
+              </Link>
             </motion.div>
           ))}
         </div>
