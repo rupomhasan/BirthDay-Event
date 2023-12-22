@@ -31,7 +31,8 @@ const Navlist = () => {
         <motion.li
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-          className="hover:text-"
+          className="hover:text-yellow"
+          
         >
           <NavLink
             to="/contactUs"

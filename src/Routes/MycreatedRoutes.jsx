@@ -8,6 +8,7 @@ import ServiceDetails from "../Pages/Service/ServiceDetails";
 import ContactUs from "../Pages/Contact/ContactUs";
 import Login from "../Pages/Authentication/Login";
 import Register from "../Pages/Authentication/Register";
+import PrivetRoute from "../Components/PrivetRoute/PrivetRoute";
 
 const MycreatedRoutes = createBrowserRouter([
   {
@@ -22,12 +23,20 @@ const MycreatedRoutes = createBrowserRouter([
       {
         path: "/store",
         loader: () => fetch("/public/store.json"),
-        element: <Store />,
+        element: (
+          <PrivetRoute>
+            <Store />
+          </PrivetRoute>
+        ),
       },
       {
         path: "/service",
         loader: () => fetch("/public/service.json"),
-        element: <Service />,
+        element: (
+          <PrivetRoute>
+            <Service />
+          </PrivetRoute>
+        ),
       },
       {
         path: "/service/:id",
